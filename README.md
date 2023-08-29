@@ -7,8 +7,8 @@
 * SQLite
 
 ## Tech description
-* Extra field on many-to-many relationship
-* Usage of constraints.UniqueConstraint
+* Extra field on Django's many-to-many relationship
+* Usage of django.db.models.constraints.UniqueConstraint
 * Validation of unique constraints in rest framework serialisers (workaround of https://github.com/encode/django-rest-framework/issues/7173)
 * REST API (GET, POST, PATCH, DELETE methods), Swagger UI
 
